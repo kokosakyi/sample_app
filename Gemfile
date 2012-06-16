@@ -8,6 +8,7 @@ gem 'rails', '3.2.6'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.10.0'
+  gem 'factory_girl_rails', '1.4.0'
 end
 
 
@@ -34,7 +35,7 @@ end
 
 gem 'bootstrap-sass', '2.0.0'
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', ' 3.0.1'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
